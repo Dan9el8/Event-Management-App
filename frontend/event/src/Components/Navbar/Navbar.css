@@ -1,0 +1,30 @@
+.nav{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 170px;
+    width: 100%;
+    z-index: 10;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 300;    
+}
+.nav-menu li:hover{
+    background: linear-gradient(267deg, #DA7C25 0.36%, #8923E1 102.96%);
+    padding: 20px 40px;
+    border-radius: 50px;
+}
+.sign-up{
+    padding: 20px 40px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #8923E1 102.96%);
+    font-size: 22px;
+    cursor: pointer;
+}
